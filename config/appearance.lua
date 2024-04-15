@@ -4,8 +4,8 @@ local colors = require('colors.custom')
 
 return {
    term = "xterm-256color",
-   animation_fps = 60,
-   max_fps = 60,
+   animation_fps = 160,
+   max_fps = 160,
    front_end = 'WebGpu',
    webgpu_power_preference = 'HighPerformance',
 
@@ -15,7 +15,7 @@ return {
    color_scheme = "Monokai Pro (Gogh)",
 
    -- background
-   window_background_opacity = 1.00,
+   window_background_opacity = 0.90,
    win32_system_backdrop = 'Acrylic',
    window_background_gradient = {
       colors = { '#121212' },
@@ -74,7 +74,8 @@ return {
       active_titlebar_bg = '#333333',
       inactive_titlebar_bg = '#000100',
       -- font = fonts.font,
-      -- font_size = fonts.font_size,
+      font_size = 16,
+
    },
    inactive_pane_hsb = { saturation = 1.0, brightness = 1.0 },
 }
