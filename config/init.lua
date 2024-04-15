@@ -3,7 +3,6 @@ local wezterm = require('wezterm')
 ---@class Config
 ---@field options table
 local Config = {}
-
 ---Initialize Config
 ---@return Config
 function Config:init()
@@ -30,5 +29,6 @@ function Config:append(new_options)
    end
    return self
 end
+
 
 return Config
