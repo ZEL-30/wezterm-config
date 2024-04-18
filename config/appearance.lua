@@ -12,16 +12,17 @@ return {
    -- color scheme
    -- colors = colors,
    -- color_scheme = "Gruvbox dark, medium (base16)",
-   color_scheme = "Monokai Pro (Gogh)",
+   color_scheme = "Maia (Gogh)",
+   -- color_scheme = "Mariana",
 
-   -- background
-   window_background_opacity = 1.00,
-   win32_system_backdrop = 'Acrylic',
-   window_background_gradient = {
-      colors = { '#121212' },
-      -- Specifices a Linear gradient starting in the top left corner.
-      orientation = { Linear = { angle = -45.0 } },
-   },
+   -- -- background
+   -- window_background_opacity = 1.00,
+   -- win32_system_backdrop = 'Acrylic',
+   -- window_background_gradient = {
+   --    colors = { '#121212' },
+   --    -- Specifices a Linear gradient starting in the top left corner.
+   --    orientation = { Linear = { angle = -45.0 } },
+   -- },
    -- background = {
    --    {
    --       source = { File = wezterm.config_dir .. '/backdrops/space.jpg' },
@@ -38,7 +39,8 @@ return {
    enable_scroll_bar = true,
    min_scroll_bar_height = "3cell",
    colors = {
-      scrollbar_thumb = '#34354D',
+      -- scrollbar_thumb = '#34354D',
+      scrollbar_thumb = '#74787c',
    },
 
    -- tab bar
@@ -71,8 +73,8 @@ return {
    },
    window_close_confirmation = 'AlwaysPrompt',
    window_frame = {
-      active_titlebar_bg = '#333333',
-      inactive_titlebar_bg = '#000100',
+      active_titlebar_bg = '#74787c',
+      inactive_titlebar_bg = '#74787c',
       -- font = fonts.font,
       font_size = 16,
 
