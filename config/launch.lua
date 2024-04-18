@@ -6,9 +6,9 @@ local options = {
 }
 
 if platform.is_win then
-   options.default_prog = { 'pwsh', '-wd', 'D:' }
+   options.default_prog = { 'pwsh', '-wd', 'D:/Workspaces' }
    options.launch_menu = {
-      { label = 'PowerShell Core',    args = { 'pwsh' } },
+      { label = 'PowerShell Core',    args = { 'pwsh', '-wd', 'D:/Workspaces' } },
       { label = 'PowerShell Desktop', args = { 'powershell' } },
       { label = 'Command Prompt',     args = { 'cmd' } },
       {

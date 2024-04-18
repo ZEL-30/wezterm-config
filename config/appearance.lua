@@ -15,7 +15,7 @@ return {
    color_scheme = "Monokai Pro (Gogh)",
 
    -- background
-   window_background_opacity = 0.90,
+   window_background_opacity = 1.00,
    win32_system_backdrop = 'Acrylic',
    window_background_gradient = {
       colors = { '#121212' },

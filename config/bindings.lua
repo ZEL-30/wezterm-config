@@ -9,6 +9,7 @@ if platform.is_mac then
    mod.SUPER_REV = 'SUPER|CTRL'
 elseif platform.is_win then
    mod.SUPER = 'ALT' -- to not conflict with Windows key shortcuts
+   mod.CTRL = 'CTRL'
    mod.SUPER_REV = 'ALT|CTRL'
 end
 
@@ -33,8 +34,8 @@ local keys = {
    { key = 'w', mods = mod.SUPER_REV, action = act.CloseCurrentTab({ confirm = false }) },
 
    -- tabs: navigation
-   { key = '[', mods = mod.SUPER, action = act.ActivateTabRelative(-1) },
-   { key = ']', mods = mod.SUPER, action = act.ActivateTabRelative(1) },
+   { key = '[', mods = mod.CTRL, action = act.ActivateTabRelative(-1) },
+   { key = ']', mods = mod.CTRL, action = act.ActivateTabRelative(1) },
    { key = '[', mods = mod.SUPER_REV, action = act.MoveTabRelative(-1) },
    { key = ']', mods = mod.SUPER_REV, action = act.MoveTabRelative(1) },
 

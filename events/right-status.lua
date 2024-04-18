@@ -61,7 +61,7 @@ M.set_battery = function()
 
    if charge == '' then
       charge = '100%'
-      icon = ''
+      icon = ''
    end
 
 
