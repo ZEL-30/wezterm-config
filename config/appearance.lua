@@ -39,8 +39,7 @@ return {
    enable_scroll_bar = true,
    min_scroll_bar_height = "3cell",
    colors = {
-      -- scrollbar_thumb = '#34354D',
-      scrollbar_thumb = '#74787c',
+      scrollbar_thumb = '#f6f5ec',
    },
 
    -- tab bar
@@ -71,10 +70,10 @@ return {
       top = 12,
       bottom = 7,
    },
-   window_close_confirmation = 'AlwaysPrompt',
+   window_close_confirmation = 'NeverPrompt',
    window_frame = {
-      active_titlebar_bg = '#74787c',
-      inactive_titlebar_bg = '#74787c',
+      active_titlebar_bg = '#38393c',
+      inactive_titlebar_bg = '#38393c',
       -- font = fonts.font,
       font_size = 16,
 
