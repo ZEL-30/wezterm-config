@@ -11,29 +11,7 @@ return {
 
    -- color scheme
    -- colors = colors,
-   -- color_scheme = "Gruvbox dark, medium (base16)",
-   color_scheme = "Maia (Gogh)",
-   -- color_scheme = "Mariana",
-
-   -- -- background
-   -- window_background_opacity = 1.00,
-   -- win32_system_backdrop = 'Acrylic',
-   -- window_background_gradient = {
-   --    colors = { '#121212' },
-   --    -- Specifices a Linear gradient starting in the top left corner.
-   --    orientation = { Linear = { angle = -45.0 } },
-   -- },
-   -- background = {
-   --    {
-   --       source = { File = wezterm.config_dir .. '/backdrops/space.jpg' },
-   --    },
-   --    {
-   --       source = { Color = '#1A1B26' },
-   --       height = '100%',
-   --       width = '100%',
-   --       opacity = 0.95,
-   --    },
-   -- },
+   color_scheme = "Snazzy (base16)",
 
    -- scrollbar
    enable_scroll_bar = true,
@@ -75,7 +53,7 @@ return {
       active_titlebar_bg = '#38393c',
       inactive_titlebar_bg = '#38393c',
       -- font = fonts.font,
-      font_size = 16,
+      font_size = 14,
 
    },
    inactive_pane_hsb = { saturation = 1.0, brightness = 1.0 },
