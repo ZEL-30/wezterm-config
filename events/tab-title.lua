@@ -26,7 +26,7 @@ M.colors = {
    },
 
    hover = {
-      bg = "#786D22",
+      bg = "#CD3333",
       fg = "#38393c",
    },
 }
@@ -116,7 +116,7 @@ M.setup = function()
 
       -- Unseen output alert
       if has_unseen_output then
-         M.push(bg, "#90d7ec", { Intensity = "Bold" }, " " .. GLYPH_CIRCLE)
+         M.push(bg, "#90EE90", { Intensity = "Bold" }, " " .. GLYPH_CIRCLE)
       end
 
       -- Right padding

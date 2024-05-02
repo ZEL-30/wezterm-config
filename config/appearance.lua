@@ -11,7 +11,7 @@ return {
 
    -- color scheme
    -- colors = colors,
-   color_scheme = "Snazzy (base16)",
+   color_scheme = 'Ivory Dark (terminal.sexy)',
 
    -- scrollbar
    enable_scroll_bar = true,
@@ -29,7 +29,7 @@ return {
    switch_to_last_active_tab_when_closing_tab = true,
 
    -- cursor
-   default_cursor_style = "BlinkingBlock",
+   default_cursor_style = "BlinkingBar",
    cursor_blink_ease_in = "Constant",
    cursor_blink_ease_out = "Constant",
    cursor_blink_rate = 700,
