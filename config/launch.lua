@@ -6,18 +6,18 @@ local options = {
 }
 
 if platform.is_win then
-   options.default_prog = { 'pwsh', '-wd', 'D:/Workspaces' }
+   options.default_prog = { 'pwsh', '-wd', 'D:/Workspace/' }
    options.launch_menu = {
-      { label = 'PowerShell Core',    args = { 'pwsh', '-wd', 'D:/Workspaces' } },
+      { label = 'PowerShell Core',    args = { 'pwsh', '-wd', 'D:/Workspace/' } },
       { label = 'PowerShell Desktop', args = { 'powershell' } },
       { label = 'Command Prompt',     args = { 'cmd' } },
+      -- {
+      --    label = 'Rocky Linux',
+      --    args = { 'wsl', '-d', 'Rocky' },
+      -- },
       {
-         label = 'Rocky Linux',
-         args = { 'wsl', '-d', 'Rocky' },
-      },
-      {
-         label = 'Ubuntu',
-         args = { 'wsl', '-d', 'Ubuntu' },
+         label = 'Ubuntu 22.04',
+         args = { 'ssh', '124.71.108.242', '-l', 'root' },
       },
 
    }

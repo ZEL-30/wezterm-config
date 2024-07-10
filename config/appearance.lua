@@ -11,7 +11,7 @@ return {
 
    -- color scheme
    -- colors = colors,
-   color_scheme = 'Ivory Dark (terminal.sexy)',
+   color_scheme = 'Chameleon (Gogh)',
 
    -- scrollbar
    enable_scroll_bar = true,
@@ -29,7 +29,7 @@ return {
    switch_to_last_active_tab_when_closing_tab = true,
 
    -- cursor
-   default_cursor_style = "BlinkingBar",
+   default_cursor_style = "BlinkingBlock",
    cursor_blink_ease_in = "Constant",
    cursor_blink_ease_out = "Constant",
    cursor_blink_rate = 700,
@@ -40,14 +40,15 @@ return {
    integrated_title_button_style = "Windows",
    integrated_title_button_color = "auto",
    integrated_title_button_alignment = "Right",
-   initial_cols = 160,
-   initial_rows = 40,
-   window_padding = {
-      left = 5,
-      right = 10,
-      top = 12,
-      bottom = 7,
-   },
+   -- initial_rows = 40,
+   -- initial_cols = 160,
+   -- window_padding = {
+   --    left = 5,
+   --    right = 10,
+   --    top = 12,
+   --    bottom = 7,
+   -- },
+
    window_close_confirmation = 'NeverPrompt',
    window_frame = {
       active_titlebar_bg = '#38393c',
