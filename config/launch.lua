@@ -11,12 +11,12 @@ if platform.is_win then
       { label = 'PowerShell Core',    args = { 'pwsh', '-wd', 'D:/Workspace/' } },
       { label = 'PowerShell Desktop', args = { 'powershell' } },
       { label = 'Command Prompt',     args = { 'cmd' } },
-      -- {
-      --    label = 'Rocky Linux',
-      --    args = { 'wsl', '-d', 'Rocky' },
-      -- },
       {
          label = 'Ubuntu 22.04',
+         args = { 'wsl', '-d', 'Ubuntu' },
+      },
+      {
+         label = '124.71.108.242',
          args = { 'ssh', '124.71.108.242', '-l', 'root' },
       },
 

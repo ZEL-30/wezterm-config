@@ -11,7 +11,8 @@ return {
 
    -- color scheme
    -- colors = colors,
-   color_scheme = 'Chameleon (Gogh)',
+   -- color_scheme = 'Kimber (base16)',
+   color_scheme = 'Later This Evening',
 
    -- scrollbar
    enable_scroll_bar = true,
